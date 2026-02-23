@@ -31,40 +31,26 @@ $$W=\int F\, dr$$
 
 
 - 我們現在來把這個東西做成能量的形式。根據剛才說的:
-$$
-W=\int F\,dr
-$$
+$$W=\int F\,dr$$
 - 而根據各位的國中老師，牛頓的萬有引力公式為:
-$$
-F=\frac{GMm}{r^2}
-$$
+$$F=\frac{GMm}{r^2}$$
 - 這個力指向中心的。想像一顆質量 $m$ 的小東西，從距離中心 $r$ 的地方往外逃。
 - 當我受到的力量是萬有引力時，把萬有引力公式帶入，我要算的作功面積是從無限遠到某一個特定位置 (也就是 $r$ ) 算起。也就是說，**我的重力方向 (往內)，相對於r增加的方向 (往外)，其實是負的**，因此$F$以負值代入: 
-$$
-W=K(r)=\int^r_\infty -\frac{GMm}{r^2}dr
-$$
+$$W=K(r)=\int^r_\infty -\frac{GMm}{r^2}dr$$
 - 接下來我們就來拆東西。首先先把常數 $GMm$ 提出去:
 $$K(r)=-GMm\int^r_\infty r^{-2}dr$$
 - 所以我們具體要算的東西叫做:
 $$\int r^{-2}dr$$
 - 接下來做冪次積分，根據定義，如下:
-$$
-\int x^n dx=\frac{x^{n+1}}{n+1} +C
-$$
+$$\int x^n dx=\frac{x^{n+1}}{n+1} +C$$
 - 因此簡單把原式做一下調整:
-$$
-\int r^{-2}dr=\frac{r^{-1}}{-1}+C=-\frac{1}{r}+C
-$$
+$$\int r^{-2}dr=\frac{r^{-1}}{-1}+C=-\frac{1}{r}+C$$
 - 代回原本的動能公式，得到:
 $$K(r)=-GMm\times(-\frac{1}{r})+C=\frac{GMm}{r}+C$$
 - 那C具體是什麼? 根據已知，當 $r$ 接近無限大時，我的動能基本為0，因此代入$r\rightarrow\infty$:
-$$
-\lim_{r \to \infty}K(r)=0+C=0\quad\Rightarrow\quad C=0 
-$$
+$$\lim_{r \to \infty}K(r)=0+C=0\quad\Rightarrow\quad C=0$$
 - 好了，所以我們代出了在這種情況下，計算出動能 $K$ 的公式:
-$$
-K(r)= \frac{GMm}{r}
-$$
+$$K(r)= \frac{GMm}{r}$$
 - 好，這是我動能 $K$ 的部分，那位能呢? 這取決於物理學家怎麼定義。一般來說，物理學家會根據方向認定，一個距離重力場無限遠，並且靜止的物體，其**總能量為0**。也就是:
 $$
 \begin{array}{l c r}
@@ -76,9 +62,7 @@ $$
 \end{array}
 $$
 - 那隨著我越來越接近重力點，我的動能變大了，我的位能呢? 自然變小了。而且因為 $K+U=0$ ，因此，U其實就相當於:
-$$
-U(r)=-\frac{GMm}{r}
-$$
+$$U(r)=-\frac{GMm}{r}$$
 > [!Tip]
 > <span style="color: #60af3e;font-weight: bold"> 總能皆為0，r越小，動能越來越正，位能越來越負。當r為無限大，動能跟位能皆為0</span> 😗
 
@@ -90,43 +74,31 @@ $$
 - 一旦逃脫地球，你會在距離地球無限遠處的地方，速度為0，動能為0，重力位能為0
 - 那麼，我們可以透過能量的概念，思考一下逃逸速度。
 - 假如說我現在站在離重力點 $r$ 的地方，不動，這個時候我的總能量 $E$，其實就是:
-$$
-E=U+K=(-\frac{GMm}{r})+0=-\frac{GMm}{r}
-$$
+$$E=U+K=(-\frac{GMm}{r})+0=-\frac{GMm}{r}$$
 - 所謂的逃逸速度，說到底，就是在我身上多加些抵抗重力的動能，讓我離開地球表面，飛到遠處
 - 隨著我的位能漸漸變大，我的動能也漸漸變小，一直到最後，我的$r\rightarrow\infty$，同時$U\rightarrow 0,\, K\rightarrow 0$，我重新漂浮在一個離重力場無限遠的地方靜止下來，此時 $E=0$
 - 根據我們以前學到的動能公式:
 $$K=\frac{1}{2}mv^2$$
 - 我的總能量就會是:
-$$
-    E=U+K=(-\frac{GMm}{r})+(\frac{1}{2}mv^2)=0
-$$
+$$E=U+K=(-\frac{GMm}{r})+(\frac{1}{2}mv^2)=0$$
 - 因此:
-$$
-\frac{GMm}{r}=\frac{1}{2}mv^2
-$$
+$$\frac{GMm}{r}=\frac{1}{2}mv^2$$
 - 繼續計算，就可以算出逃逸速度:
-$$
-\begin{align}
+$$\begin{align}
 & \frac{GMm}{r}=\frac{1}{2}mv^2\\[0.5em]
 \Rightarrow\quad &  \frac{2GM}{r}=v^2\\[0.5em]
 \Rightarrow\quad &  \boxed{v_e=\sqrt[]{\frac{2GM}{r}}}
-\end{align}
-$$
+\end{align}$$
 - 因此我們可以發現，隨著 $r$ 越來越小，離重力點越來越近，那麼我的逃逸速度就要越來越大。因為 $r$ 越小，位能就越負，我就需要更大的動能來 "彌補"。
 - 如果我的位能近乎無限小，那我的動能就需要近乎無限大來彌補，近乎無限大的動能，對應的是近乎無限大的速度。
-$$
-r\rightarrow 0\quad\Rightarrow\quad U\rightarrow -\infty,\, K\rightarrow \infty,\, v_e\rightarrow \infty$$
+$$r\rightarrow 0\quad\Rightarrow\quad U\rightarrow -\infty,\, K\rightarrow \infty,\, v_e\rightarrow \infty$$
+
 #### 我到底能跑多快?
 - 根據我們年輕時的愛因斯坦，他已經說了，任何有質量的物體，其速度在平直時空裡面都不可能超過光速。這是狹義相對論的精髓。
 - 因此，對於我們這種個體來說，我們的逃逸速度有個極限，那個極限叫做光速 $c$。因此在這種情況下，我們可以定義:
-$$
-\sqrt[]{\frac{2GM}{r}}=v_e\rightarrow c
-$$
+$$\sqrt[]{\frac{2GM}{r}}=v_e\rightarrow c$$
 - 那這種狀況下，我到底距離重力點多遠呢? 
-$$
-\sqrt[]{\frac{2GM}{r}}=c\quad\Rightarrow\quad \boxed{r=\frac{2GM}{c^2}}
-$$
+$$\sqrt[]{\frac{2GM}{r}}=c\quad\Rightarrow\quad \boxed{r=\frac{2GM}{c^2}}$$
 - 這個 $r$ 的數值，和史瓦西半徑是一樣的。
 > [!Warning]
 > <span style="color: #ff751f;font-weight: bold">雖然以上公式能計算出準確數值，但需透過廣義相對論才能夠正確推導出史瓦西半徑。牛頓力學及廣義相對論能導出相同結果，或許純粹是巧合而已</span> 😒
@@ -145,59 +117,50 @@ $$
 #### 度規又是什麼
 - 簡單來說，就是 **"當我改變座標項的時候，具體我會跑多遠"** 的意思
 - 在座標系為 $(x, y, z)$ 的時候，事情還好說，移動多少距離? 就是畢氏定理唄 (以距離變化程度的方式描述):
-$$
-ds^2=dx^2+dy^2+dz^2
-$$
+$$ds^2=dx^2+dy^2+dz^2$$
 - 在球座標就有點tricky，因為座標系上的並不是只有距離，而是角度的旋轉。因此，我們又要來做思想實驗了
 #### 思想實驗
 - 設想一下，你站在地球上，$r$ 的變化基本就是妥妥的距離變化，那沒有問題
 - 接下來，我從赤道開始往北極點移動，我的移動情形相當於在一個以 $\theta$ 為角度的扇形弧線上移動
 > [!Tip] 
-<span style="color: #60af3e;font-weight: bold">在微分的世界裡面，所有變化量都像是直線。 😏
+<span style="color: #60af3e;font-weight: bold">在微分的世界裡面，所有變化量都像是直線。</span> 😏
 - 以 $\theta$ 為角度的圓弧的長度怎麼解釋? 叫做 $r\theta$。
 - 那麼，如果我是往東走呢? 請記住，緯線的長度，隨著我在的緯度越高，會越來越短。
 - 假如說我在某個緯度，其極角叫做 $\theta$，那我所在的緯線半徑，就是$r\sin \theta$
 - 那我以這個半徑走了 $\phi$，我移動的圓弧有多長? 就是 $r\sin\theta\times\phi$。
 - 我們把這三項都放在一起，就像我們對 $(x, y, z)$ 座標系寫度規一樣，就會變成:
-$$
-ds^2=dr^2+r^2d\theta^2+r^2\sin^2\theta d \phi^2 
-$$
+$$ds^2=dr^2+r^2d\theta^2+r^2\sin^2\theta d \phi^2$$
+
 #### 當時間變成了一個維度
 - 物理學家認為時間就像所有的維度一樣，這個時候，我們形容一個物體的時空，座標就會加上一個 $t$，變成 $(t,x,y,z)$，或是 $(t,r,\theta,\phi)$
 - 在度規上，就是在裡面多加一個時間項，變成:
-$$
-\begin{align}
+$$\begin{align}
 ds^2 &=-c^2dt^2+dx^2+dy^2+dz^2\\
 & \text{or}\\
 ds^2 &=-c^2dt^2+dr^2+r^2d\theta^2+r^2\sin^2\theta d \phi^2 
-\end{align}
-$$
+\end{align}$$
+
 > [!Important]
 > <span style="color: #1c39ff;font-weight: bold">這又被稱為平直時空，aka "閔考斯基時空"</span>
+
 #### 史瓦西度規到底長怎樣
 - 由於根據廣義相對論，時空的扭曲會受到引力影響
 - 而又因為引力大小的最主要重點是物體跟質點的距離 (也就是 $r$ )，我們用球座標會比較好表示
 - 我們不需要知道史瓦西到底是怎麼參透愛因斯坦場方程的，不過我們可以看看到底他參透出什麼東西。
 - 經過他一翻改造過後，他把原本平質時空的度規改造成如下:
-$$
-ds^2 = -(1 - \frac{2GM}{c^2 r})c^2 dt^2+(1 - \frac{2GM}{c^2 r})^{-1} dr^2+r^2 d\theta^2+r^2 \sin^2\theta d\phi^2 
-$$
+$$ds^2 = -(1 - \frac{2GM}{c^2 r})c^2 dt^2+(1 - \frac{2GM}{c^2 r})^{-1} dr^2+r^2 d\theta^2+r^2 \sin^2\theta d\phi^2$$
 - 而剛才得到的史瓦西半徑，就是在這個度規下的一個 "特殊情況"
-$$
-r_s=\frac{2GM}{c^2}
-$$
+$$r_s=\frac{2GM}{c^2}$$
 - 在這裡面，時空的扭曲只發生在徑向 $r$ 跟時間 $t$ 而已，所以在這兩項前面乘了不同的因子，其餘的部分完全沒變。
 > [!Tip]
 > <span style="color: #60af3e;font-weight: bold">只要你繞著黑洞走，而不改變你跟黑洞的距離，對於我們來說並沒有差別</span>
     
 - 如果 $r=r_s$，時間跟徑向軸的因子 (分別為 $g_{tt}$ 和 $g_{rr}$ ) 為:
-$$
-\begin{align}
+$$\begin{align}
 & r\rightarrow r_s\\[0.5em]
 \Rightarrow\quad & 1-\frac{2GM}{c^2 r}\rightarrow 0\\
 \Rightarrow\quad & ds^2 = -0\cdot c^2 dt^2+ \frac{1}{0}\cdot dr^2+r^2 d\theta^2+r^2 \sin^2\theta d\phi^2 
-\end{align}
-$$
+\end{align}$$
 - 時間項變成了0 → 座標時間 $t$ 的時間不貢獻任何固有時 
    - 也就是說，在外看起來，該區域的物體時間流速靜止
 - 徑向項發散 → 任何微小的 $dr$ 對應無窮大的距離 
@@ -207,38 +170,24 @@ $$
 
 [![image](https://hackmd.io/_uploads/SkYAhhF_-x.png)](https://jacklyn301.github.io/note_of_physics/)
 - 而當 $r\rightarrow\infty$，也就是我漸漸遠離黑洞之後:
-$$
-1-\frac{2GM}{c^2 r}\rightarrow 1
-$$
+$$1-\frac{2GM}{c^2 r}\rightarrow 1$$
 - 這時 $g_{tt}\rightarrow -1$，$g_{rr}\rightarrow 1$，整的度規又變成了:
-$$
-ds^2=-c^2dt^2+dr^2+r^2d\theta^2+r^2\sin^2\theta d \phi^2
-$$
+$$ds^2=-c^2dt^2+dr^2+r^2d\theta^2+r^2\sin^2\theta d \phi^2$$
 - 回歸平直的閔考斯基時空，一切平安無事 🌚
 
 ### 最後來個總結 🐱
 - 從能量守恆開始，透過萬有引力公式與積分，我們得到動能與位能的表達式。同時，物理學家也設定，無限遠處總能量為0
 - 由於總能量 $E=U+K=0$，我要累積的動能要彌補位能的虧損，因此逃逸速度為: 
-$$
-v_e=\sqrt[]{\frac{2GM}{r}}
-$$
+$$v_e=\sqrt[]{\frac{2GM}{r}}$$
 - 光速是有靜止質量的物體在平直時空中的極限。當逃逸速度趨近光速 $c$ ，對應的半徑就是史瓦西半徑：
-$$
-r_s=\frac{2GM}{c^2}
-$$
+$$r_s=\frac{2GM}{c^2}$$
 - 牛頓力學雖能巧合得到相同結果，但真正的推導需依靠愛因斯坦場方程，以及史瓦西大力相助做度規的修正
 - 度規用來描述空間中 "距離" 與 "角度" 的計算方式。就是告訴你如何在某個座標下，計算距離
 - 在物理上面，時空是四維的，因此度規自然也是四項，因此直角坐標系 $(x,y,z)$ 度規就是簡單的勾股定理:
-$$
-ds^2 =-c^2dt^2+dx^2+dy^2+dz^2
-$$
+$$ds^2 =-c^2dt^2+dx^2+dy^2+dz^2$$
 - 而球座標系 $(r, \theta, \phi)$ 相對複雜: 
-$$
-ds^2 = -c^2dt^2+dr^2+r^2d\theta^2+r^2\sin^2\theta d \phi^2 
-$$
+$$ds^2 = -c^2dt^2+dr^2+r^2d\theta^2+r^2\sin^2\theta d \phi^2$$
 - 平直的閔考斯基時空的前提是沒有引力場影響，當考慮球對稱的引力場，例如黑洞或球形星體，度規會被修正，也就是以史瓦西度歸來描述:
-$$
-ds^2 = -(1 - \frac{2GM}{c^2 r})c^2 dt^2+(1 - \frac{2GM}{c^2 r})^{-1} dr^2+r^2 d\theta^2+r^2 \sin^2\theta d\phi^2 
-$$
+$$ds^2 = -(1 - \frac{2GM}{c^2 r})c^2 dt^2+(1 - \frac{2GM}{c^2 r})^{-1} dr^2+r^2 d\theta^2+r^2 \sin^2\theta d\phi^2$$
 - 在 $r=r_s$ 時，對黑洞外面的觀察者而言，物體時間似乎靜止 ($g_{tt}\rightarrow 0$)，徑向距離被無限拉伸 ($g_{rr}\rightarrow \infty$)
 - $r_s$ 標誌著黑洞事件視界的位置，超過此界限，任何物質 (還有光) 都無法逃逸。
