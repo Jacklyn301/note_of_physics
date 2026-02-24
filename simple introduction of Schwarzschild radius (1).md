@@ -16,7 +16,7 @@ $$W=F\times r$$
 > <span style="color: #60af3e;font-weight: bold">那這時W相當於什麼? 欸沒錯，就是**趨勢線下的面積** !</span> 😏
 - 如果我的引力跟離原點的距離有一個特定的關係 (而事實就是真的有關係，等下就會看到了)，這個關係可以做成一個方程式，並且該方程式在平面座標上可呈現出連續的線，也就是所謂的方程式圖形
 - 只要能推論出線下的體積會如何隨著力量跟距離的變化而變化，那我就可以推導出做功 (也就是能量)的具體公式。這個過程，叫做**對該公式積分**，呈現如下:
-$$W=\int F\, dr$$
+$$W=\int F\ dr$$
 
 ### 2. 思想實驗
 > [!Warning] 
@@ -35,7 +35,7 @@ $$W=\int F\, dr$$
 
 - 我們現在來把這個東西做成能量的形式。根據剛才說的:
 $$
-W=\int F\,dr
+W=\int F\ dr
 $$
 - 而根據各位的國中老師，牛頓的萬有引力公式為:
 $$
@@ -103,7 +103,7 @@ $$
 $$K=\frac{1}{2}mv^2$$
 - 我的總能量就會是:
 $$
-    E=U+K=(-\frac{GMm}{r})+(\frac{1}{2}mv^2)=0
+E=U+K=(-\frac{GMm}{r})+(\frac{1}{2}mv^2)=0
 $$
 - 因此:
 $$
@@ -120,7 +120,7 @@ $$
 - 隨著 $r$ 越來越小，離重力點越來越近，那麼我的逃逸速度就要越來越大。因為 $r$ 越小，位能就越負，我就需要更大的動能來 "彌補"。
 - 如果我的位能近乎無限小，那我的動能就需要近乎無限大來彌補，近乎無限大的動能，對應的是近乎無限大的速度。
 $$
-r\rightarrow 0\quad\Rightarrow\quad U\rightarrow -\infty,\, K\rightarrow \infty,\, v_e\rightarrow \infty
+r\rightarrow 0\quad\Rightarrow\quad U\rightarrow -\infty,\ K\rightarrow \infty,\ v_e\rightarrow \infty
 $$
 
 #### 我到底能跑多快?
