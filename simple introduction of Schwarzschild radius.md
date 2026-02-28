@@ -254,7 +254,7 @@ $$\begin{align}
 > 點以下圖片就可以看互動圖表~ (ง •_•)ง
 
 [![image](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/SED_0223.png)](https://jacklyn301.github.io/note_of_physics/)
-- 而當我成功的逃離黑洞，漸漸離黑洞越還越遠。直到近乎無限遠處，也就是 $r\rightarrow\infty$ :
+- 而當我成功的逃離黑洞，漸漸離黑洞越來越遠。直到近乎無限遠處，也就是 $r\rightarrow\infty$ :
 
 $$1-\frac{2GM}{c^2 r}\rightarrow 1$$
 
