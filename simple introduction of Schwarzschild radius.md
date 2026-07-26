@@ -253,7 +253,7 @@ $$\begin{align}
 - 從以下的模擬圖表可以發現，隨著我的半徑越小，徑向的部分被拉伸地越長，直到 $r=r_s$ 的時候，空間的拉伸就像是垂直的深井一樣。
 > 點以下圖片就可以看互動圖表~ (ง •_•)ง
 
-[![image](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/SED_0223.png)](https://jacklyn301.github.io/note_of_physics/)
+[![image](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/SED_0223.png)](https://Jacklyn301.github.io/note_of_selflearning/swr.html)
 
 - 而當我成功的逃離黑洞，漸漸離黑洞越來越遠。直到近乎無限遠處，也就是 $r\rightarrow\infty$ :
 
