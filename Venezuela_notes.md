@@ -1,6 +1,6 @@
 ---
 title: Venezuela_notes
-
+tags: [venezuela, economics, inflation, Dutch disease]
 ---
 
 # 🇻🇪 Venezuela Notes
